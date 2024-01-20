@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#component_bg{
+    background-image: url('./images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 375px) {   
+#component_bg{
+    background-image: url('./images/bg-intro-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+}
